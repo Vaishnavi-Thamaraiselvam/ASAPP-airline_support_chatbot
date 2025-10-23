@@ -1,0 +1,23 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+
+# Ignore model files and checkpoints
+airline_distilbert_model/
+*.pkl
+*.pt
+*.bin
+
+# Ignore logs and results
+logs/
+results/
+
+# Ignore local config or cache
+*.json
+*.csv
+.DS_Store
